@@ -1,0 +1,414 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+
+    background-image: url(./assets/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh);
+   
+
+}
+
+
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-right-tray{
+    padding-right: 25px;
+
+}
+
+.top-right-tray ul{
+    list-style: none;
+}
+
+.languages{
+    background-color: white;
+    border-radius: 100%;
+    padding: 5px 8px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#dropdowna{
+    font-weight: bold;
+    text-align: center;
+    display: none;
+    margin-top: 5px;
+    position: absolute;
+
+}
+
+
+#dropdowna li{
+    background-color: white;
+    list-style: none;
+    margin-left: 10px;
+    cursor: pointer;
+    color: gray;
+    padding: 5px 15px;
+
+}
+
+#en:hover{
+    background-color:dodgerblue;
+    color: white;
+}
+
+#fr:hover{
+    background-color:dodgerblue;
+    color: white;
+}
+
+#es:hover{
+    background-color:dodgerblue;
+    color: white;
+}
+
+.search-modal{
+    width: calc(100vw);
+    height: calc(100vh);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    transition: 5s ease;
+
+  
+}
+.input{
+    text-align: center;
+    display:flex ;
+    align-items: center;
+    height: calc(90vh);
+    margin-left: 80px;
+}
+
+.input ::placeholder{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+
+
+.search-modal input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    height: calc(10vh);
+    outline: none;
+    color: white;
+    font-size: 30px;
+  
+}
+
+.cross{
+    float: right;
+    margin-right: 100px;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 1px 8px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 5s ease;
+
+}
+
+.cross:hover{
+    background-color: rgba(128, 128, 128, 0.438);
+    border:3px solid rgba(128, 128, 128, 0.568);
+    color: gray;
+    transition: 1s;
+}
+
+
+/* End of Top bar */
+
+
+
+/* Start Of Nav Bar */
+
+.nav-bar{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(196, 196, 196, 0.377) ;
+    border-bottom:1px solid rgba(196, 196, 196, 0.377) ;
+    padding: 30px 0;
+
+}
+
+.nav-bar span{
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.home{
+    color: yellow;
+    text-decoration: none;
+}
+
+.dropdown-1{
+   position: absolute;
+   background-color: white;
+   color: rgba(0, 0, 0, 0.637);
+   width: 20%;
+   font-size: 14px;
+   font-family: 'Courier New', Courier, monospace;
+   text-transform: uppercase;
+   margin-top: 30px;
+   padding: 20px;
+
+}
+
+.dropdown-1 p{
+    width: 100%;
+}
+
+.dropdown-1 p:hover{
+    color: dodgerblue;
+    transition: 1s;
+}
+
+.home:hover{
+    color: yellow;
+}
+
+/* End Of nav_bar */
+
+
+/* Start of Main text */
+
+.main-text h1{
+    color: white;
+    width: 60%;
+    font-size: 60px;
+    padding: 80px 100px;
+    padding-bottom: 0px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.02em;
+
+
+
+}
+
+.main-text p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.459);
+    font-weight: 400;
+    padding: 20px 100px;
+    width:55%;
+
+}
+
+.main-text button{
+    background-color: yellow;
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+
+}
+
+.main-text button:hover{
+    background-color: dodgerblue;
+    color: white;
+    transition: 1s ease-in;
+}
+
+/* End Of Main-Text */
+
+
+/* Start Of Destinations Page */
+
+.destinations{
+    margin-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+.dest-p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+
+}
+    
+
+.places{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.places div{
+    margin-left: 20px;
+}
+.mal-img{
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    padding: 15px;
+    cursor: pointer;
+}
+
+.indo-img{
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.aus-img{
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.maldives{
+    width: 27%;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.maldives:hover{
+    box-shadow: 3px 3px 3px 3px rgb(228, 228, 228);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    transition: 0.3s ease-in;
+
+
+}
+
+.maldives:hover .mal-img{
+    border: none;
+}
+
+.maldives:hover .mal-p2{
+    border: 2px solid dodgerblue;
+    padding: 8px;
+    border-radius: 5px;
+    color: dodgerblue;
+    transition: 0.2s ease-in;
+
+}
+
+.mal-p{
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.mal-p1{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 0.726);
+
+}
+
+.mal-p2{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.726);
+    border-bottom: 3px solid rgba(128, 128, 128, 0.726) ;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.mal-p2:hover{
+    border: 1px solid black !important ;
+    color: black !important;
+}
+
+.indoneshia{
+    width: 27%;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.indoneshia:hover{
+    box-shadow: 3px 3px 3px 3px rgb(228, 228, 228);
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+    
+
+
+}
+
+.indoneshia:hover .indo-img{
+    border: none;
+}
+
+.indoneshia:hover .mal-p2{
+    border: 2px solid dodgerblue;
+    padding: 8px;
+    border-radius: 5px;
+    color: dodgerblue;
+    transition: 0.2s ease-in;
+}
+
+.australia{
+    width: 27%;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.australia:hover{
+    box-shadow: 3px 3px 3px 3px rgb(228, 228, 228);
+    border: none !important;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+
+}
+
+.australia:hover .aus-img{
+    border: none;
+}
+
+
+.australia:hover .mal-p2{
+    border: 2px solid dodgerblue;
+    padding: 8px;
+    border-radius: 5px;
+    color: dodgerblue;
+    transition: 0.2s ease-in;
+}
+
+
