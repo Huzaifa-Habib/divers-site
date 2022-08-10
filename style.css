@@ -269,12 +269,10 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
 }
 
-.places div{
-    margin-left: 20px;
-}
 .mal-img{
     border: 1px solid rgba(128, 128, 128, 0.288);
     padding: 15px;
@@ -288,17 +286,13 @@ body{
 
 }
 
-.aus-img{
-    border: 1px solid rgba(128, 128, 128, 0.288);
-    padding: 15px;
-    cursor: pointer;
 
-}
 
 .maldives{
-    width: 27%;
+    width: 30%;
     text-align: center;
     padding-bottom: 20px;
+
 
 }
 
@@ -356,9 +350,10 @@ body{
 }
 
 .indoneshia{
-    width: 27%;
+    width: 30%;
     text-align: center;
     padding-bottom: 20px;
+    margin-left: 30px;
 
 }
 
@@ -383,32 +378,130 @@ body{
     transition: 0.2s ease-in;
 }
 
-.australia{
-    width: 27%;
+/* End of destinations */
+
+
+/* Start of about our clients */
+
+
+.about-site{
+    background-image: url(./assets/parallax-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+    height: calc(60vh);
+}
+
+
+.clients{
     text-align: center;
+}
+
+.client-number{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 4px solid white;
+
+}
+
+.clients h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.offer{
+    text-align: center;
+    padding-left: 100px;
+}
+
+.offer h3{
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.review {
+    text-align: center;
+    padding-left: 100px;
+
+
+}
+
+.review h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.partner{
+    text-align: center;
+    padding-left: 100px;
+
+
+}
+
+.partner h3{
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+/* End of about our clients */
+
+
+/* Start of why you choose divers page */
+
+.divers{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+    
+}
+
+
+
+.hide-show img{
+    box-shadow: 2px 2px 2px 1px rgb(216, 216, 216);
+    border-radius: 100%;
+    background-color: rgb(0, 153, 255);
+}
+
+.intro{
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.hide-show{
+    margin-left: 10px;
     padding-bottom: 20px;
+    cursor: pointer;
 
 }
 
-.australia:hover{
-    box-shadow: 3px 3px 3px 3px rgb(228, 228, 228);
-    border: none !important;
-    border-radius: 10px;
-    transition: 0.3s ease-in;
+.hide-show span{
+    margin-left: 20px;
+    font-weight: 500;
 
 }
 
-.australia:hover .aus-img{
-    border: none;
+#hide-text{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgba(128, 128, 128, 0.678);
+    font-weight: 500;
+    border-top: 2px solid rgba(128, 128, 128, 0.37);
+
+    
+
 }
 
 
-.australia:hover .mal-p2{
-    border: 2px solid dodgerblue;
-    padding: 8px;
-    border-radius: 5px;
-    color: dodgerblue;
-    transition: 0.2s ease-in;
-}
 
 

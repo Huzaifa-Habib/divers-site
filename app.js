@@ -137,3 +137,24 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 
+//   For Hide and Show Text====================================================
+
+
+var text1=document.getElementById("hide-text");
+text1.style.display="block"
+
+function hide1 () {
+    if (text1.style.display=="block"){
+
+        text1.style.display="none"   
+    }
+
+    else{
+        text1.style.display="block"
+    }
+
+}
+
+
+
+
